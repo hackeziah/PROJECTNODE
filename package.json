@@ -1,0 +1,44 @@
+{
+  "name": "sample_node",
+  "version": "1.0.0",
+  "description": "kahit ano",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=development & nodemon -w src --exec \"babel-node src --presets es2015,stage-0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.11.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-jwt": "^5.1.0",
+    "express-validator": "^4.3.0",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.7",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0",
+    "pm2": "^2.8.0",
+    "promise": "^8.0.1",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^4.13.1"
+  },
+
+  "author": "kevin",
+  "license": "ISC"
+}
